@@ -24,7 +24,7 @@ public class AgenciaBancaria {
         System.out.println("|             Opção 5 : Listar               |");
         System.out.println("|             Opção 6 : Sair                 |");
         int operacao = input.nextInt();
-        input.nextLine(); // consome quebra de linha
+        input.nextLine(); 
 
         switch (operacao) {
             case 1:
@@ -58,7 +58,7 @@ public class AgenciaBancaria {
         String nome = input.nextLine();
 
         System.out.println("\nCPF:");
-        String cpf = input.nextLine(); // agora CPF é String ✅
+        String cpf = input.nextLine(); 
 
         System.out.println("\nE-mail:");
         String email = input.nextLine();
